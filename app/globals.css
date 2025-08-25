@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Focus styles for accessibility */
+  *:focus {
+    outline: 2px solid #1B5FFF;
+    outline-offset: 2px;
+  }
+
+  /* Skip to content link */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #0B1E3C;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 1000;
+  }
+
+  .skip-link:focus {
+    top: 6px;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent hover:bg-accent-light text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-primary border-2 border-primary font-semibold py-3 px-6 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-accent transition-colors duration-200;
+  }
+
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
