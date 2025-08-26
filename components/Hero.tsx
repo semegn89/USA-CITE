@@ -24,8 +24,12 @@ export default function Hero() {
             <span className="block text-accent">Quotes & Bookings in Seconds</span>
           </h1>
           
-          <p className="text-xl sm:text-2xl mb-8 text-gray-200 font-light">
+          <p className="text-xl sm:text-2xl mb-4 text-gray-200 font-light">
             Fast. Automated. Global.
+          </p>
+          
+          <p className="text-lg mb-8 text-gray-300 font-medium">
+            100% Digital. 100% Global Logistics.
           </p>
           
           <p className="text-lg mb-12 text-gray-300 max-w-2xl mx-auto">

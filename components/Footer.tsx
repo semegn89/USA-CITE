@@ -8,10 +8,20 @@ export default function Footer() {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="md:col-span-2">
-              <h3 className="text-xl font-bold mb-4">Internal Logistic LLC</h3>
-              <p className="text-gray-300 mb-4 max-w-md">
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center mr-3">
+                  <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold">InLo</h3>
+              </div>
+              <p className="text-gray-300 mb-2 max-w-md">
                 Digital-first freight partner focused on instant quotations, automated docs, 
                 and online status visibility.
+              </p>
+              <p className="text-sm text-gray-400 mb-4">
+                100% Digital. 100% Global Logistics.
               </p>
               <div className="space-y-2 text-sm text-gray-300">
                 <p>501 Silverside Road, Suite 105</p>
@@ -71,6 +81,11 @@ export default function Footer() {
                 <li>
                   <a href="/terms-of-service" className="text-gray-300 hover:text-white transition-colors">
                     Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a href="/cookie-policy" className="text-gray-300 hover:text-white transition-colors">
+                    Cookie Policy
                   </a>
                 </li>
                 <li>
