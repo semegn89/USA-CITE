@@ -84,6 +84,17 @@ export default function Services() {
         </div>
 
         <div className="text-center mt-12">
+          <div className="bg-gray-50 rounded-lg p-6 mb-6">
+            <h3 className="text-lg font-semibold text-primary mb-3">Operational Scope</h3>
+            <p className="text-gray mb-4">
+              We provide comprehensive logistics solutions including freight forwarding (sea / air / road / rail), 
+              warehousing and customs clearance, serving both B2B and B2C shipments.
+            </p>
+            <p className="text-sm text-gray">
+              Main operational partners: Maersk, DHL, FedEx, UPS, and other leading carriers
+            </p>
+          </div>
+          
           <p className="text-gray mb-6">
             Need a custom solution? We handle specialized shipments and unique requirements.
           </p>

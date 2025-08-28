@@ -34,7 +34,7 @@ export default function Hero() {
           
           <p className="text-lg mb-12 text-gray-300 max-w-2xl mx-auto">
             Get instant freight quotes and manage shipments online across sea, air, road, and rail. 
-            No phone calls, no waiting—just transparent pricing and clear ETAs.
+            Global coverage across EU, US and Asia with proven track record in B2B logistics.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

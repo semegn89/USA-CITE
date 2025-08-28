@@ -49,8 +49,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-primary mb-1">Phone</h4>
-                  <a href="tel:+1xxxxxxxxxx" className="text-accent hover:text-accent-light transition-colors">
-                    +1 (xxx) xxx-xxxx
+                  <a href="tel:+13025550199" className="text-accent hover:text-accent-light transition-colors">
+                    +1 302 555 0199
                   </a>
                   <p className="text-sm text-gray mt-1">Monday - Friday, 9 AM - 6 PM EST</p>
                 </div>

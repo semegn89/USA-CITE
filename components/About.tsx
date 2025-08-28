@@ -21,7 +21,8 @@ export default function About() {
             
             <p className="text-lg text-gray mb-6 leading-relaxed">
               We're a digital-first freight partner focused on instant quotations, automated docs, 
-              and online status visibility—bringing marketplace-level clarity to every shipment.
+              and online status visibility—bringing marketplace-level clarity to every shipment. 
+              Global coverage across EU, US and Asia with proven track record in B2B logistics.
             </p>
             
             <p className="text-gray mb-8 leading-relaxed">
@@ -49,11 +50,20 @@ export default function About() {
             
             <div className="space-y-4">
               <div>
-                <h4 className="font-semibold text-primary mb-2">Registered Address</h4>
+                <h4 className="font-semibold text-primary mb-2">Company Information</h4>
+                <p className="text-gray">
+                  Internal Logistic LLC (InLo)<br />
+                  State of formation: Delaware, USA<br />
+                  File No.: [insert company file number]<br />
+                  EIN: [xx-xxxxxxx]
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="font-semibold text-primary mb-2">Registered Office</h4>
                 <p className="text-gray">
                   501 Silverside Road, Suite 105<br />
-                  Wilmington, DE 19809<br />
-                  United States
+                  Wilmington, DE 19809, USA
                 </p>
               </div>
               
@@ -61,7 +71,7 @@ export default function About() {
                 <h4 className="font-semibold text-primary mb-2">Contact Information</h4>
                 <p className="text-gray">
                   Email: info@internallogisticllc.com<br />
-                  Phone: +1 (xxx) xxx-xxxx
+                  Phone: +1 302 555 0199
                 </p>
               </div>
               
@@ -76,18 +86,25 @@ export default function About() {
             </div>
 
             <div className="mt-8 pt-6 border-t border-gray-200">
+              <div className="bg-blue-50 p-4 rounded-lg mb-6">
+                <h4 className="font-semibold text-primary mb-2">Compliance & Security</h4>
+                <p className="text-sm text-gray">
+                  We comply with US/EU sanctions and AML requirements. No cash handling. KYC required for all clients. Dual-use shipments only with licenses.
+                </p>
+              </div>
+              
               <div className="flex items-center justify-center space-x-6">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-accent">24/7</div>
                   <div className="text-sm text-gray">Online Booking</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-accent">150+</div>
-                  <div className="text-sm text-gray">Countries Served</div>
+                  <div className="text-2xl font-bold text-accent">Global</div>
+                  <div className="text-sm text-gray">Coverage</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-accent">99%</div>
-                  <div className="text-sm text-gray">On-Time Delivery</div>
+                  <div className="text-2xl font-bold text-accent">Proven</div>
+                  <div className="text-sm text-gray">Track Record</div>
                 </div>
               </div>
             </div>

@@ -27,6 +27,7 @@ export default function Footer() {
                 <p>501 Silverside Road, Suite 105</p>
                 <p>Wilmington, DE 19809, USA</p>
                 <p>Email: info@internallogisticllc.com</p>
+                <p>Phone: +1 302 555 0199</p>
               </div>
             </div>
 
