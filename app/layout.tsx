@@ -5,6 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://yourdomain.com'),
   title: 'InLo - Digital Logistics Agency — Instant Quotes & Online Booking',
   description: 'Get instant freight quotes and manage shipments online across sea, air, road, and rail. 100% Digital. 100% Global Logistics.',
   keywords: 'logistics, freight, shipping, instant quotes, digital logistics, international shipping, InLo',
