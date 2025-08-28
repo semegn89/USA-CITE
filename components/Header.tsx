@@ -30,11 +30,11 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center mr-3">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </div>
+              <img 
+                src="/assets/logo/logo.png" 
+                alt="Intelogistic Logo" 
+                className="w-8 h-8 mr-3"
+              />
               <div>
                 <h1 className="text-xl font-bold text-primary">Intelogistic</h1>
                 <p className="text-xs text-gray">100% Digital. 100% Global Logistics.</p>

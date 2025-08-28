@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   keywords: 'logistics, freight, shipping, instant quotes, digital logistics, international shipping, Intelogistic',
   authors: [{ name: 'Intelogistic' }],
   icons: {
-    icon: '/favicon.svg',
+    icon: '/assets/logo/logo.png',
   },
   openGraph: {
     title: 'Intelogistic - Digital Logistics Agency — Instant Quotes & Online Booking',
@@ -46,7 +46,7 @@ export default function RootLayout({
               "@type": "Organization",
               "legalName": "Intelogistic",
               "url": "https://yourdomain.com",
-              "logo": "https://yourdomain.com/logo.png",
+              "logo": "https://yourdomain.com/assets/logo/logo.png",
               "legalAddress": {
                 "@type": "PostalAddress",
                 "streetAddress": "501 Silverside Road, Suite 105",

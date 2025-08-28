@@ -44,9 +44,16 @@ export default function About() {
           </div>
 
           <div className="bg-white rounded-xl p-8 shadow-lg">
-            <h3 className="text-xl font-semibold text-primary mb-6">
-              Company Information
-            </h3>
+            <div className="flex items-center mb-6">
+              <img 
+                src="/assets/logo/logo.png" 
+                alt="Intelogistic Logo" 
+                className="w-12 h-12 mr-4"
+              />
+              <h3 className="text-xl font-semibold text-primary">
+                Company Information
+              </h3>
+            </div>
             
             <div className="space-y-4">
               <div>
