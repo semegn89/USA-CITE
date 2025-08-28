@@ -36,7 +36,7 @@ export default function Header() {
                 </svg>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-primary">InLo</h1>
+                <h1 className="text-xl font-bold text-primary">Intelogistic</h1>
                 <p className="text-xs text-gray">100% Digital. 100% Global Logistics.</p>
               </div>
             </a>

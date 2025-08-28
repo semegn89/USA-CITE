@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
             </p>
             
             <p className="text-gray mb-6">
-              Internal Logistic LLC ("InLo", "we", "our", "us") values your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you use our website and services.
+              Intelogistic ("we", "our", "us") values your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you use our website and services.
             </p>
             
             <section className="mb-8">
@@ -85,12 +85,12 @@ export default function PrivacyPolicy() {
               <p className="text-gray mb-4">
                 If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us:
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="text-gray font-semibold">Internal Logistic LLC</p>
-                <p className="text-gray">501 Silverside Road, Suite 105</p>
-                <p className="text-gray">Wilmington, DE 19809, USA</p>
-                <p className="text-gray">Email: info@internallogisticllc.com</p>
-              </div>
+                             <div className="bg-gray-50 p-4 rounded-lg">
+                 <p className="text-gray font-semibold">Intelogistic</p>
+                 <p className="text-gray">501 Silverside Road, Suite 105</p>
+                 <p className="text-gray">Wilmington, DE 19809, USA</p>
+                 <p className="text-gray">Email: info@intelogistic.com</p>
+               </div>
             </section>
           </div>
         </div>

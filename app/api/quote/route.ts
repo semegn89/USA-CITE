@@ -72,7 +72,7 @@ Please respond to this quote request within 2 hours during business hours.
     if (resend && process.env.RESEND_API_KEY) {
       await resend.emails.send({
         from: 'noreply@yourdomain.com',
-        to: process.env.EMAIL_TO || 'info@internallogisticllc.com',
+        to: process.env.EMAIL_TO || 'info@intelogistic.com',
         subject: `New Quote Request - ${body.name} - ${body.mode} Freight`,
         text: emailContent,
         html: emailContent.replace(/\n/g, '<br>'),

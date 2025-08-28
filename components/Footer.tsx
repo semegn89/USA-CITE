@@ -14,7 +14,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold">InLo</h3>
+                <h3 className="text-xl font-bold">Intelogistic</h3>
               </div>
               <p className="text-gray-300 mb-2 max-w-md">
                 Digital-first freight partner focused on instant quotations, automated docs, 
@@ -26,7 +26,7 @@ export default function Footer() {
               <div className="space-y-2 text-sm text-gray-300">
                 <p>501 Silverside Road, Suite 105</p>
                 <p>Wilmington, DE 19809, USA</p>
-                <p>Email: info@internallogisticllc.com</p>
+                <p>Email: info@intelogistic.com</p>
                 <p>Phone: +1 302 555 0199</p>
               </div>
             </div>

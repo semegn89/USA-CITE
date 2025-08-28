@@ -6,22 +6,22 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://yourdomain.com'),
-  title: 'InLo - Digital Logistics Agency — Instant Quotes & Online Booking',
+  title: 'Intelogistic - Digital Logistics Agency — Instant Quotes & Online Booking',
   description: 'Get instant freight quotes and manage shipments online across sea, air, road, and rail. 100% Digital. 100% Global Logistics.',
-  keywords: 'logistics, freight, shipping, instant quotes, digital logistics, international shipping, InLo',
-  authors: [{ name: 'Internal Logistic LLC' }],
+  keywords: 'logistics, freight, shipping, instant quotes, digital logistics, international shipping, Intelogistic',
+  authors: [{ name: 'Intelogistic' }],
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: 'InLo - Digital Logistics Agency — Instant Quotes & Online Booking',
+    title: 'Intelogistic - Digital Logistics Agency — Instant Quotes & Online Booking',
     description: 'Get instant freight quotes and manage shipments online across sea, air, road, and rail. 100% Digital. 100% Global Logistics.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'InLo - Digital Logistics Agency — Instant Quotes & Online Booking',
+    title: 'Intelogistic - Digital Logistics Agency — Instant Quotes & Online Booking',
     description: 'Get instant freight quotes and manage shipments online across sea, air, road, and rail. 100% Digital. 100% Global Logistics.',
   },
   robots: {
@@ -44,7 +44,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "legalName": "Internal Logistic LLC",
+              "legalName": "Intelogistic",
               "url": "https://yourdomain.com",
               "logo": "https://yourdomain.com/logo.png",
               "legalAddress": {
@@ -58,7 +58,7 @@ export default function RootLayout({
               "contactPoint": [{
                 "@type": "ContactPoint",
                 "contactType": "sales",
-                "email": "info@internallogisticllc.com"
+                "email": "info@intelogistic.com"
               }]
             })
           }}

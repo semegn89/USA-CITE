@@ -11,7 +11,7 @@ export default function CookiePolicy() {
             </p>
             
             <p className="text-gray mb-6">
-              This Cookie Policy explains how Internal Logistic LLC ("InLo", "we", "our", "us") uses cookies and similar technologies on our website.
+              This Cookie Policy explains how Intelogistic ("we", "our", "us") uses cookies and similar technologies on our website.
             </p>
             
             <section className="mb-8">
@@ -107,12 +107,12 @@ export default function CookiePolicy() {
               <p className="text-gray mb-4">
                 If you have any questions about our use of cookies, please contact us:
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="text-gray font-semibold">Internal Logistic LLC</p>
-                <p className="text-gray">501 Silverside Road, Suite 105</p>
-                <p className="text-gray">Wilmington, DE 19809, USA</p>
-                <p className="text-gray">Email: info@internallogisticllc.com</p>
-              </div>
+                             <div className="bg-gray-50 p-4 rounded-lg">
+                 <p className="text-gray font-semibold">Intelogistic</p>
+                 <p className="text-gray">501 Silverside Road, Suite 105</p>
+                 <p className="text-gray">Wilmington, DE 19809, USA</p>
+                 <p className="text-gray">Email: info@intelogistic.com</p>
+               </div>
             </section>
           </div>
         </div>

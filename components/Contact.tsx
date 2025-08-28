@@ -32,13 +32,13 @@ export default function Contact() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <div>
-                  <h4 className="font-semibold text-primary mb-1">Email</h4>
-                  <a href="mailto:info@internallogisticllc.com" className="text-accent hover:text-accent-light transition-colors">
-                    info@internallogisticllc.com
-                  </a>
-                  <p className="text-sm text-gray mt-1">We typically respond within 2 hours</p>
-                </div>
+                                 <div>
+                   <h4 className="font-semibold text-primary mb-1">Email</h4>
+                   <a href="mailto:info@intelogistic.com" className="text-accent hover:text-accent-light transition-colors">
+                     info@intelogistic.com
+                   </a>
+                   <p className="text-sm text-gray mt-1">We typically respond within 2 hours</p>
+                 </div>
               </div>
 
               <div className="flex items-start">

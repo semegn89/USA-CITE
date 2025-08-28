@@ -16,7 +16,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
-              About Internal Logistic LLC
+              About Intelogistic
             </h2>
             
             <p className="text-lg text-gray mb-6 leading-relaxed">
@@ -52,7 +52,7 @@ export default function About() {
               <div>
                 <h4 className="font-semibold text-primary mb-2">Company Information</h4>
                 <p className="text-gray">
-                  Internal Logistic LLC (InLo)<br />
+                  Intelogistic<br />
                   State of formation: Delaware, USA<br />
                   File No.: [insert company file number]<br />
                   EIN: [xx-xxxxxxx]

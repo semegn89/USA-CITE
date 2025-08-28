@@ -11,13 +11,13 @@ export default function TermsOfService() {
             </p>
             
             <p className="text-gray mb-6">
-              These Terms of Service ("Terms") govern your use of the website and services of Internal Logistic LLC ("InLo", "we", "our", "us"). By using our website or requesting our services, you agree to these Terms.
+              These Terms of Service ("Terms") govern your use of the website and services of Intelogistic ("we", "our", "us"). By using our website or requesting our services, you agree to these Terms.
             </p>
             
             <section className="mb-8">
               <h2 className="text-xl font-semibold text-primary mb-4">1. Services</h2>
               <ul className="list-disc pl-6 text-gray mb-4">
-                <li>InLo provides digital logistics solutions including freight quotations, booking support, customs documentation, and tracking services</li>
+                <li>Intelogistic provides digital logistics solutions including freight quotations, booking support, customs documentation, and tracking services</li>
                 <li>Services are offered subject to availability and may vary by region</li>
               </ul>
             </section>
@@ -35,14 +35,14 @@ export default function TermsOfService() {
               <ul className="list-disc pl-6 text-gray mb-4">
                 <li>All shipping quotes are estimates based on information provided by you</li>
                 <li>Final prices may vary depending on carrier availability, regulations, and actual cargo details</li>
-                <li>InLo is not responsible for errors caused by incomplete or inaccurate information provided by the customer</li>
+                <li>Intelogistic is not responsible for errors caused by incomplete or inaccurate information provided by the customer</li>
               </ul>
             </section>
             
             <section className="mb-8">
               <h2 className="text-xl font-semibold text-primary mb-4">4. Liability</h2>
               <ul className="list-disc pl-6 text-gray mb-4">
-                <li>InLo acts as a logistics facilitator and does not assume liability for delays, damages, or losses caused by third-party carriers, customs authorities, or force majeure</li>
+                <li>Intelogistic acts as a logistics facilitator and does not assume liability for delays, damages, or losses caused by third-party carriers, customs authorities, or force majeure</li>
                 <li>Our liability is limited to the extent permitted by applicable law</li>
               </ul>
             </section>
@@ -50,7 +50,7 @@ export default function TermsOfService() {
             <section className="mb-8">
               <h2 className="text-xl font-semibold text-primary mb-4">5. Intellectual Property</h2>
               <ul className="list-disc pl-6 text-gray mb-4">
-                <li>All content on this website (logos, texts, images, software) is owned by or licensed to InLo</li>
+                <li>All content on this website (logos, texts, images, software) is owned by or licensed to Intelogistic</li>
                 <li>You may not copy, reproduce, or redistribute content without prior written consent</li>
               </ul>
             </section>
@@ -75,12 +75,12 @@ export default function TermsOfService() {
               <p className="text-gray mb-4">
                 For questions about these Terms, please contact:
               </p>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="text-gray font-semibold">Internal Logistic LLC</p>
-                <p className="text-gray">501 Silverside Road, Suite 105</p>
-                <p className="text-gray">Wilmington, DE 19809, USA</p>
-                <p className="text-gray">Email: info@internallogisticllc.com</p>
-              </div>
+                             <div className="bg-gray-50 p-4 rounded-lg">
+                 <p className="text-gray font-semibold">Intelogistic</p>
+                 <p className="text-gray">501 Silverside Road, Suite 105</p>
+                 <p className="text-gray">Wilmington, DE 19809, USA</p>
+                 <p className="text-gray">Email: info@intelogistic.com</p>
+               </div>
             </section>
           </div>
         </div>
